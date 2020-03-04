@@ -1,0 +1,40 @@
+SRTUtils Release Notes
+-------------------------------------------------------------------
+List below in bullet form all technical points in new release
+
+v0.2 (01.08.2019)
+------------------------
+-MR FIX: Fixed the Generic buffer classes to work with the video encoder and camera pipeline.
+
+v0.1 (04.06.2019)
+------------------------
+-MR NOTE: Switched the source code to git.
+
+***********************************************SVN REPO RELEASE NOTES**********************************************************
+
+v1.5 (13.03.2018)
+------------------------
+-MR ADD: Addition of the ExtractDirectoryFromLinuxFilePath function.
+-MR RNM: Renamed the ExtractFilenameFromLinuxPath function to ExtractFilenameFromLinuxFilePath.
+
+v1.4 (12.03.2018)
+------------------------
+-MR ADD: Addition of the PrintFloatMatrix and SolveAssignmentProblemHungarianAlgorithm functions.
+
+v1.3 (20.02.2018)
+------------------------
+-MR FIX: Fixes to use the new GenericBuffer, CSearidgeRAObjectPool, CSearidgeResourcePool and CSearidgeSmartPtr classes implemented in EAVD Trunk v5.0.24.76.
+-MR ADD: Addition of the EAVD style CompareTickCountsSafely function (from EAVD Trunk v5.0.24.76).
+
+v1.2 (06.02.2018)
+------------------------
+-MR ADD: Addition of the CopyFile function
+
+v1.1 (05.02.2018)
+------------------------
+-MR ADD: Addition of the CheckIfDirectoryExists, CheckIfFileExists, CountNumberOfFilesInDirectory, ExtractFilenameFromLinuxPath, GetAllFileNamesInDir,
+		 GetAllFileNamesWithExtensionInDir and MoveFile functions 
+
+v1.0 (11.12.2017)
+------------------------
+-MR CRT: Created the initial version of the SRTUtils shared library.

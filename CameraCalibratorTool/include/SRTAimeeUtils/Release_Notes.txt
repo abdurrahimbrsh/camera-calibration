@@ -1,0 +1,17 @@
+SRTAimeeUtils Release Notes
+-------------------------------------------------------------------
+List below in bullet form all technical points in new release
+
+v0.1 (04.06.2019)
+------------------------
+-MR NOTE: Switched the source code to git.
+
+***********************************************SVN REPO RELEASE NOTES**********************************************************
+
+v1.1 (08.03.2018)
+------------------------
+-MR ADD: Addition of the InsertValueInTop5Vector, ProcessOutputDataImageClassification, and ProcessOutputDataSSDObjectDetection functions.
+
+v1.0 (05.02.2018)
+------------------------
+-MR CRT: Created the initial version of the SRTAimeeUtils shared library.

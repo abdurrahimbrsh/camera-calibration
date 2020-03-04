@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ToolBox</class>
+ <widget class="QDialog" name="ToolBox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>313</width>
+    <height>145</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Camera Calibration Tool Box</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QToolTip{
+	color : black;
+}
+QDialog#ToolBox{
+	background : #333333;
+}
+QInputDialog{
+	background: #333333;
+}
+QGroupBox{
+	color : white;
+	margin-top : 2ex;
+	border-radius : 5px;
+	padding : 8px;
+	padding-top : 13px;
+	 border-style: outset;
+ 	 border-width: 2px;
+	 border-color: #1f1f1f;
+}
+QMenuBar#menuBar{
+
+	background : grey;
+	color : white;
+	 border-bottom-style: outset;
+ 	 border-bottom-width: 1px;
+	 border-bottom-color: #222222;
+}
+QMenu{
+	background : grey;
+	color : #1f1f1f;
+}
+QMenu::item:selected{
+	background : #c9c9c9;
+}
+QStatusBar#statusBar{
+	background : grey;
+	color : white;
+	border-top-style: outset;
+ 	border-top-width: 1px;
+	border-top-color: #222222;
+}
+QPushButton{
+	color : white;
+	background : grey;
+	padding : 5px;
+	border-radius : 3px;
+}
+
+QPushButton:hover{
+	background : #c9c9c9;
+}
+QPushButton:pressed{
+	background : #474747;
+}
+QPushButton:disabled{
+	color : #474747;
+}
+QLineEdit{
+	color : white;
+	background : #111111;
+	padding : 3px;
+	border-radius : 3px;
+	border-color : white;
+	border-width : 1px;
+}
+QComboBox{
+	color : white;
+	background : #111111;
+	padding : 3px;
+	min-width : 40px;
+	border-radius : 3px;
+
+}
+QComboBox::drop-down{
+	
+}
+QComboBox QAbstractItemView{
+	background-color : black;
+	color : white;
+}
+QSlider::handle{
+	background : grey;
+}
+QSlider::handle:hover{
+	background : #c9c9c9;
+}
+QSlider::handle:pressed{
+	background : #474747;
+}
+QLabel{
+	color : white;
+}
+QRadioButton{
+	color : white;
+}
+QCheckBox{
+	color : white;
+}
+QRadioButton::indicator{
+	 border-style: outset;
+ 	 border-width: 2px;
+	 border-color: #1f1f1f;
+	background : white;
+	border-radius : 6px;
+}
+QRadioButton::indicator:checked{
+	 border-style: outset;
+ 	 border-width: 2px;
+	 border-color: white;
+	background : #1f1f1f;
+	border-radius : 6px;
+}
+QCheckBox::indicator{
+	 border-style: outset;
+ 	 border-width: 2px;
+	 border-color: #1f1f1f;
+	background : white;
+}
+QCheckBox::indicator:checked{
+	 border-style: outset;
+ 	 border-width: 2px;
+	 border-color: white;
+	background : #1f1f1f;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+font-size: 16px;
+font-weight: bold;
+padding: 14px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Camera Calibration Tool</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLineEdit" name="ipEdit">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+padding: 8px;
+}</string>
+       </property>
+       <property name="placeholderText">
+        <string>Enter camera ip address</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="connectBtn">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+padding: 10px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Connect</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="calibrateBtn">
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+padding: 10px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Calibrate</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
